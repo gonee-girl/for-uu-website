@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/surprise.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Surprise!</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <header>
+        <h1>THIS IS FOR YOU!</h1>
+        <p>I hope you like it!</p>
+      </header>
+
+      <div class="cards-container">
+  <div class="row">
+    <div class="card" id="card1">
+        <a href="letter.html">
+          <img src="images/image1.svg" />
+         </a>
+    </div>
+    <div class="card" id="card2">
+      <a href="playlist.html">
+      <img src="images/image2.svg" />
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="card" id="card3">
+      <a href="reasons.html">
+      <img src="images/image3.svg" />
+      </a>
+    </div>
+    <div class="card" id="card4">
+      <img src="images/image4.svg" />
+    </div>
+  </div>
+</div>
+
+    <script>
+       let card4Element = document.querySelector("#card4");
+
+      card4Element.addEventListener("click", () => {
+        alert("Coming soon...");
+      });
+    </script>
+  </body>
+</html>

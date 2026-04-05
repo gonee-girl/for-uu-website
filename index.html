@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>🥰Something Special for You</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <h1>HI LOVE!</h1>
+      <h2>
+        DO YOU WANNA SEE A LITTLE
+        <br />
+        SUPRISE I MADE FOR UU?
+      </h2>
+      <div class="buttons-container">
+        <button onclick="location.href = 'mainGame.html'" class="yes-btn">
+          Yes
+        </button>
+        <button class="no-btn">No</button>
+      </div>
+    </div>
+
+    <script>
+      const noButton = document.querySelector(".no-btn");
+
+      if (noButton) {
+        noButton.addEventListener("click", () => {
+          alert("Aww, don’t be shy! The surprise is waiting for you 😘");
+        });
+      }
+    </script>
+  </body>
+</html>
